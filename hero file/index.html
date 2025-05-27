@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- =====BOX ICONS===== -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <title class="">ROHITANSHU DHAR || ROHITANSHU DHAR</title>
+  </head>
+  <body>
+    <!-- Loader -->
+    <div
+      class="loader w-full h-screen fixed z-[999] bg-transparent flex justify-center items-center"
+    >
+      <div class="loader-spinner absolute"></div>
+      <div class="loader-rgls h-full w-full flex">
+        <div class="bg-blue-200 h-full w-full"></div>
+        <div class="bg-blue-200 h-full w-full"></div>
+        <div class="bg-blue-200 h-full w-full"></div>
+        <div class="bg-blue-200 h-full w-full"></div>
+        <div class="bg-blue-200 h-full w-full"></div>
+        <div class="bg-blue-200 h-full w-full"></div>
+        <div class="bg-blue-200 h-full w-full"></div>
+        <div class="bg-blue-200 h-full w-full"></div>
+        <div class="bg-blue-200 h-full w-full"></div>
+        <div class="bg-blue-200 h-full w-full"></div>
+        <div class="bg-blue-200 h-full w-full"></div>
+        <div class="bg-blue-200 h-full w-full"></div>
+        <div class="bg-blue-200 h-full w-full"></div>
+        <div class="bg-blue-200 h-full w-full"></div>
+        <div class="bg-blue-200 h-full w-full"></div>
+        <div class="bg-blue-200 h-full w-full"></div>
+        <div class="bg-blue-200 h-full w-full"></div>
+        <div class="bg-blue-200 h-full w-full"></div>
+        <div class="bg-blue-200 h-full w-full"></div>
+        <div class="bg-blue-200 h-full w-full"></div>
+        <div class="bg-blue-200 h-full w-full"></div>
+      </div>
+    </div>
+
+    <!-- mouse-follower -->
+    <div
+      class="cursor fixed z-[1000] h-3 w-3 -translate-1/2 rounded-full hidden md:block bg-blue-500 pointer-events-none"
+    ></div>
+
+    <!--===== HEADER =====-->
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div>
+          <a href="#" class="nav__logo">Rohitanshu</a>
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">Skills</a>
+            </li>
+            <li class="nav__item">
+              <a href="#work" class="nav__link">project</a>
+            </li>
+            <li class="nav__item">
+              <a href="#education" class="nav__link">Education</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main">
+      <!--===== HOME =====-->
+      <section class="home bd-grid" id="home">
+        <div class="home__data">
+          <h1 class="home__title text-5xl font-extrabol leading-tight">
+            Hi,<br />
+            I'm&nbsp;
+            <span
+              class="text-6xl bg-gradient-to-r font-[800] from-blue-400 to-purple-400 bg-clip-text text-transparent"
+            >
+              Rohitanshu </span
+            ><br />
+            Data Scientist
+          </h1>
+
+          <a
+            href="./page/contact.html"
+            class="button bg-gradient-to-r from-purple-300 to-blue-300 text-white shadow-2xl"
+            >Contact</a
+          >
+        </div>
+
+        <div class="home__social">
+          <a
+            href="https://www.linkedin.com/in/rohitanshu-dhar?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            class="home__social-icon"
+            target="_blank"
+          >
+            <i class="bx bxl-linkedin"></i>
+          </a>
+          <a
+            href="https://github.com/Rohitanshu95"
+            class="home__social-icon"
+            target="_blank"
+          >
+            <i class="bx bxl-github"></i>
+          </a>
+        </div>
+        <div class="home__img w-full  mx-auto overflow-hidden">
+          <div
+            id="blob"
+            class="absolute inset-0 bg-gradient-to-b from-blue-300 to-purple-500 rounded-full mix-blend-multiply overflow-hidden"
+          >
+        <img
+            src="image\rohitanshu.png"
+            alt=""
+            class="relative w-full h-full object-cover rounded-full"
+          /></div>
+          
+        </div>
+      </section>
+
+      <!--===== ABOUT =====-->
+      <section class="about section" id="about">
+        <h2 class="section-title">About</h2>
+
+        <div class="about__container bd-grid">
+          <div class="about__img">
+            <img src="assets\img\rohit_photo2.jpg" alt="Rohitanshu Dhar" />
+          </div>
+
+          <div>
+            <h2 class="about__subtitle">Hi there 👋 I’m Rohitanshu Dhar</h2>
+            <p class="about__text">
+              I’m a passionate Computer Science student with a strong interest
+              in Artificial Intelligence, Machine Learning, and Data Analytics.
+              I love exploring innovative technologies and leveraging data to
+              uncover meaningful insights and build intelligent systems.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--===== SKILLS =====-->
+      <section class="skills section" id="skills">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills__container bd-grid">
+          <div>
+            <h2 class="skills__subtitle">Technical Competencies</h2>
+            <p class="skills__text">
+              Proficient in a range of tools and technologies essential for Data
+              Analytics, Machine Learning, and AI projects.
+            </p>
+
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-python skills__icon"></i>
+                <span class="skills__name">Python</span>
+              </div>
+              <div class="skills__bar skills__python"></div>
+              <div>
+                <span class="skills__percentage">90%</span>
+              </div>
+            </div>
+
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bx-data skills__icon"></i>
+                <span class="skills__name">SQL / MySQL</span>
+              </div>
+              <div class="skills__bar skills__sql"></div>
+              <div>
+                <span class="skills__percentage">85%</span>
+              </div>
+            </div>
+
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bx-bar-chart-alt-2 skills__icon"></i>
+                <span class="skills__name"
+                  >Power BI (Desktop, Service, DAX)</span
+                >
+              </div>
+              <div class="skills__bar skills__powerbi"></div>
+              <div>
+                <span class="skills__percentage">80%</span>
+              </div>
+            </div>
+
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bx-scatter-chart skills__icon"></i>
+                <span class="skills__name">Matplotlib / Seaborn</span>
+              </div>
+              <div class="skills__bar skills__viz"></div>
+              <div>
+                <span class="skills__percentage">75%</span>
+              </div>
+            </div>
+
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bx-brain skills__icon"></i>
+                <span class="skills__name">Scikit-learn / OpenCV</span>
+              </div>
+              <div class="skills__bar skills__mlcv"></div>
+              <div>
+                <span class="skills__percentage">70%</span>
+              </div>
+            </div>
+
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bx-spreadsheet skills__icon"></i>
+                <span class="skills__name">Microsoft Excel</span>
+              </div>
+              <div class="skills__bar skills__excel"></div>
+              <div>
+                <span class="skills__percentage">85%</span>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <img
+              src="assets\img\skill-removebg-preview.png"
+              alt="Skills Illustration"
+              class="skills__img"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!--===== WORK =====-->
+      <section class="work section px-12" id="work">
+        <div class="container mx-auto py-12 relative">
+          <!-- Vertical line -->
+          <div
+            class="absolute left-1/2 top-0 h-full w-0.5 mt-30 bg-blue-500 transform -translate-x-1/2"
+          ></div>
+
+          <h2 class="text-4xl font-bold text-center mb-12 text-blue-400">
+            Projects
+          </h2>
+
+          <div class="space-y-16 pt-20">
+            <!-- 1. Registration Open (Left) -->
+            <div class="grid grid-cols-14 items-center">
+              <div class="col-span-4 col-start-3">
+                <div
+                  class="p-6 bg-gray-200 border border-blue-500 rounded-xl neon-box overflow-hidden"
+                >
+                  <div class="work__card">
+                    <img
+                      src="assets\img\weather.webp"
+                      alt="Project 1"
+                      class="work__img"
+                    />
+                    <div class="work__content">
+                      <h3 class="work__title">Weather App</h3>
+                      <p class="work__description">
+                        Real-time weather forecast using OpenWeather API and
+                        React.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-span-1"></div>
+            </div>
+
+            <div class="grid grid-cols-14 items-center">
+              <div class="col-span-4 col-start-9">
+                <div
+                  class="p-6 bg-gray-200 border border-blue-500 rounded-xl neon-box overflow-hidden"
+                >
+                  <div class="work__card">
+                    <img
+                      src="assets\img\gemin.jpg"
+                      alt="Project 2"
+                      class="work__img"
+                    />
+                    <div class="work__content">
+                      <h3 class="work__title">
+                        Chatbot using Gemini API & Streamlit
+                      </h3>
+                      <p class="work__description">
+                        A simple AI chatbot using Google's Gemini API and
+                        Streamlit for a real-time, interactive chat experience.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-span-1"></div>
+            </div>
+
+            <div class="grid grid-cols-14 items-center">
+              <div class="col-span-4 col-start-3">
+                <div
+                  class="p-6 bg-gray-200 border border-blue-500 rounded-xl neon-box overflow-hidden"
+                >
+                  <div class="work__card">
+                    <img
+                      src="assets\img\financial.jpg"
+                      alt="Project 2"
+                      class="work__img"
+                    />
+                    <div class="work__content">
+                      <h3 class="work__title">
+                        Financial Data Dashboard with Predictive Analysis and
+                        Insights
+                      </h3>
+                      <p class="work__description">
+                        A financial dashboard that aggregates real-time data
+                        from government and financial APIs, providing clear
+                        visualizations and automated reports.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-span-1"></div>
+            </div>
+
+            <div class="grid grid-cols-14 items-center">
+              <div class="col-span-4 col-start-9">
+                <div
+                  class="p-6 bg-gray-200 border border-blue-500 rounded-xl neon-box overflow-hidden"
+                >
+                  <div class="work__card">
+                    <img
+                      src="assets\img\data visualization for e-commerce.webp"
+                      alt="Project 2"
+                      class="work__img"
+                    />
+                    <div class="work__content">
+                      <h3 class="work__title">
+                        E-Commerce Dataset Visualization
+                      </h3>
+                      <p class="work__description">
+                        This project analyzes and visualizes an e-commerce
+                        dataset using Python, Pandas, and Matplotlib. It helps
+                        in understanding sales trends, customer behavior, and
+                        product performance
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-span-1"></div>
+            </div>
+
+            <div class="grid grid-cols-14 items-center">
+              <div class="col-span-4 col-start-3">
+                <div
+                  class="p-6 bg-gray-200 border border-blue-500 rounded-xl neon-box overflow-hidden"
+                >
+                  <div class="work__card">
+                    <img
+                      src="assets\img\ola.jpg"
+                      alt="Project 2"
+                      class="work__img"
+                    />
+                    <div class="work__content">
+                      <h3 class="work__title">
+                        Ola Bengaluru City Riding Dashboard
+                      </h3>
+                      <p class="work__description">
+                        This project is a Power BI dashboard that visualizes Ola
+                        ride data in Bengaluru city, offering key insights into
+                        city-wide ride trends, peak hours, popular routes,
+                        revenue metrics, and more. The goal is to provide a
+                        comprehensive analytical view for decision-makers and
+                        urban mobility enthusiasts.
+                      </p>
+                    </div>
+                  </div>
+                  >
+                </div>
+              </div>
+              <div class="col-span-1"></div>
+            </div>
+
+            <div class="grid grid-cols-14 items-center">
+              <div class="col-span-4 col-start-9">
+                <div
+                  class="p-6 bg-gray-200 border border-blue-500 rounded-xl neon-box overflow-hidden"
+                >
+                  <div class="work__card">
+                    <img
+                      src="assets\img\unnamed.webp"
+                      alt="Project 2"
+                      class="work__img"
+                    />
+                    <div class="work__content">
+                      <h3 class="work__title">
+                        🏦 Bank Stability Checking Dashboard
+                      </h3>
+                      <p class="work__description">
+                        This Power BI dashboard analyzes key financial
+                        indicators to assess the stability of banks. It helps
+                        stakeholders monitor risk factors, track performance,
+                        and make informed decisions based on real-time data
+                        insights.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-span-1"></div>
+            </div>
+
+            <div class="grid grid-cols-14 items-center">
+              <div class="col-span-4 col-start-3">
+                <div
+                  class="p-6 bg-gray-200 border border-blue-500 rounded-xl neon-box overflow-hidden"
+                >
+                  <div class="work__card">
+                    <img
+                      src="assets\img\computervision.jpg"
+                      alt="Project 1"
+                      class="work__img"
+                    />
+                    <div class="work__content">
+                      <h3 class="work__title">
+                        Real-Time Object Detection and Monitoring System
+                      </h3>
+                      <p class="work__description">
+                        VisionGuard is a real-time object detection system using
+                        YOLOv8 to monitor video streams from IP cameras. Ideal
+                        for classrooms, warehouses, and factories, it offers
+                        people counting, object tracking, and safety monitoring
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-span-1"></div>
+            </div>
+
+            <!-- Add more items as needed, alternating left/right -->
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== Education ===== -->
+
+      <section class="education section px-20 mt-10" id="education">
+        <h2
+          class="section-title text-4xl font-bold text-center mb-12 text-blue-400"
+        >
+          Education
+        </h2>
+        <div class="container mx-auto py-12">
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Card 1 -->
+            <div
+              class="p-6 rounded-2xl border border-white/20 bg-gradient-to-tl from-blue-100/30 via-white/10 to-blue-500/30 backdrop-blur-md"
+            >
+              <div class="flex justify-between items-start mb-4">
+                <i class="ri-graduation-cap-line text-3xl text-blue-900"></i>
+                <i class="ri-timer-line text-2xl text-blue-900"></i>
+              </div>
+              <h3 class="text-xl font-semibold text-blue-900 mb-2">
+                Bachelor of Technology in Computer Science
+              </h3>
+              <p class="text-sm text-blue-800 mb-1">
+                <strong>College:</strong> Gandhi Institute Of Excellent
+                Technocrats,<br />
+                Ghangapatna, Bhubaneswar
+              </p>
+              <p class="text-sm text-blue-800 mb-1">
+                <strong>Year:</strong> 2022 – 2026
+              </p>
+              <p class="text-sm text-blue-800 mb-4">
+                <strong>CGPA:</strong> 7.8 / 10
+              </p>
+            </div>
+
+            <!-- Card 2 -->
+            <div
+              class="p-6 rounded-2xl border border-white/20 bg-gradient-to-tl from-blue-100/30 via-white/10 to-blue-500/30 backdrop-blur-md"
+            >
+              <div class="flex justify-between items-start mb-4">
+                <i class="ri-community-line text-3xl text-blue-900"></i>
+                <i class="ri-timer-line text-2xl text-blue-900"></i>
+              </div>
+              <h3 class="text-xl font-semibold text-blue-900 mb-2">
+                Higher Secondary (12th)
+              </h3>
+              <p class="text-sm text-blue-800 mb-1">
+                <strong>School:</strong> Jhadeswar +2 Sc. Residential College,
+                Balasore
+              </p>
+              <p class="text-sm text-blue-800 mb-1">
+                <strong>Year:</strong> 2020 – 2022
+              </p>
+              <p class="text-sm text-blue-800 mb-4">
+                <strong>Percentage:</strong> 83%
+              </p>
+            </div>
+
+            <!-- Card 3 -->
+            <div
+              class="p-6 rounded-2xl border border-white/20 bg-gradient-to-tl from-blue-100/30 via-white/10 to-blue-500/30 backdrop-blur-md"
+            >
+              <div class="flex justify-between items-start mb-4">
+                <i class="ri-book-line text-3xl text-blue-900"></i>
+                <i class="ri-timer-line text-2xl text-blue-900"></i>
+              </div>
+              <h3 class="text-xl font-semibold text-blue-900 mb-2">
+                Intermediate (10th)
+              </h3>
+              <p class="text-sm text-blue-800 mb-1">
+                <strong>School:</strong> Nilambar Govt. High School,<br />
+                Tudigaida, Khaira, Balasore
+              </p>
+              <p class="text-sm text-blue-800 mb-1">
+                <strong>Year:</strong> 2019 – 2020
+              </p>
+              <p class="text-sm text-blue-800 mb-4">
+                <strong>Percentage:</strong> 87%
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--===== FOOTER =====-->
+      <footer class="footer">
+        <p class="footer__title">Rohitanshu Dhar</p>
+        <div class="footer__social">
+          <a
+            href="https://www.linkedin.com/in/rohitanshu-dhar?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            class="footer__icon"
+            target="_blank"
+          >
+            <i class="bx bxl-linkedin"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/itz_ro_hit_2.0?igsh=MXkyNWhneDFneHp1bA=="
+            class="footer__icon"
+            target="_blank"
+          >
+            <i class="bx bxl-instagram"></i>
+          </a>
+          <a
+            href="https://x.com/Rohitanshu86?t=fwNV1IRI-KRpm5zMcv9hvg&s=09"
+            class="footer__icon"
+            target="_blank"
+          >
+            <i class="bx bxl-twitter"></i>
+          </a>
+        </div>
+        <p class="footer__copy">&#169; Bhubaneswar, Odisha, 751012</p>
+      </footer>
+    </main>
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"
+      integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+    <script src="./assets/js/animation.js"></script>
+  </body>
+</html>
